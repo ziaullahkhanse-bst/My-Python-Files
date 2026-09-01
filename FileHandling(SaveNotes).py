@@ -6,7 +6,6 @@ file = open(filename, "w")
 
 file.write(note)
 
-# Close file
 file.close()
 
 # Success message
