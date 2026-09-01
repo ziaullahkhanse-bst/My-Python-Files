@@ -4,7 +4,6 @@ filename = input("Enter a file name: ")
 
 file = open(filename, "w")
 
-# Write note to file
 file.write(note)
 
 # Close file
