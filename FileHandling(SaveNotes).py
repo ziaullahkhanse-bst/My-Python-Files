@@ -8,5 +8,4 @@ file.write(note)
 
 file.close()
 
-# Success message
 print("Note saved successfully!")
