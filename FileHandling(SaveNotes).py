@@ -1,4 +1,3 @@
-# Ask for note
 note = input("Enter a note: ")
 
 # Ask for filename
