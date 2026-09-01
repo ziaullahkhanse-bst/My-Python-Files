@@ -8,4 +8,4 @@ file.write(b + "\n")
 
 file.close()
 
-print("Text added successfully!"
+print("Text added successfully!")
