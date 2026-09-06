@@ -1,5 +1,5 @@
 def tribonacci(signature, n):
-    # If n is 0, return empty list
+    
     if n == 0:
         return []
     
