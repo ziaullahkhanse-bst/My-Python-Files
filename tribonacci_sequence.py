@@ -4,7 +4,7 @@ def tribonacci(signature, n):
         return []
     
   
-    result = signature[:]  # Copy the signature
+    result = signature[:]  
     
     # Keep adding numbers until we have n numbers
     while len(result) < n:
