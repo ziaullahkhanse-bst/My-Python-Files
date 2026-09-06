@@ -11,7 +11,7 @@ def tribonacci(signature, n):
     return result[:n]
 
 
-print(tribonacci([1, 1, 1], 10))  # [1, 1, 1, 3, 5, 9, 17, 31, 57, 105]
-print(tribonacci([0, 0, 1], 10))  # [0, 0, 1, 1, 2, 4, 7, 13, 24, 44]
-print(tribonacci([1, 2, 3], 5))   # [1, 2, 3, 6, 11]
-print(tribonacci([1, 1, 1], 0))   # []
+print(tribonacci([1, 1, 1], 10))  
+print(tribonacci([0, 0, 1], 10))  
+print(tribonacci([1, 2, 3], 5))   
+print(tribonacci([1, 1, 1], 0))   
