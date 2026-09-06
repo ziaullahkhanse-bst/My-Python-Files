@@ -1,13 +1,9 @@
 def tribonacci(signature, n):
-    
     if n == 0:
         return []
-    
-  
     result = signature[:]  
     
     while len(result) < n:
-        # Add the last 3 numbers
         next_num = result[-1] + result[-2] + result[-3]
         result.append(next_num)
     
