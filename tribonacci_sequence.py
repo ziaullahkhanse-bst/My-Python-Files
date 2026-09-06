@@ -3,7 +3,7 @@ def tribonacci(signature, n):
     if n == 0:
         return []
     
-    # Start with the signature (first 3 numbers)
+  
     result = signature[:]  # Copy the signature
     
     # Keep adding numbers until we have n numbers
