@@ -6,7 +6,6 @@ def tribonacci(signature, n):
   
     result = signature[:]  
     
-    # Keep adding numbers until we have n numbers
     while len(result) < n:
         # Add the last 3 numbers
         next_num = result[-1] + result[-2] + result[-3]
