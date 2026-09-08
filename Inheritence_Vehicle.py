@@ -8,7 +8,7 @@ class Vehicle:
 
 class Car(Vehicle):
     def __init__(self, brand, year, model):
-        super().__init__(brand, year)  # Call parent __
+        super().__init__(brand, year)  # Call parent
         self.model = model
 
     def car_info(self):
