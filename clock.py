@@ -1,5 +1,5 @@
 def past(h, m, s):
-    # Convert everything to seconds first, then to milliseconds
+    # Convert everything to seconds first, then to 
     total_seconds = (h * 3600) + (m * 60) + s
     total_milliseconds = total_seconds * 1000
     return total_milliseconds
