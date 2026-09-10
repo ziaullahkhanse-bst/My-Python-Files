@@ -8,4 +8,4 @@ def past(h, m, s):
 print(past(0, 1, 1))    
 print(past(1, 0, 0))    
 print(past(0, 0, 1))    
-print(past(1, 30, 0))   # 5400000
+print(past(1, 30, 0))   
