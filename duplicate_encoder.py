@@ -1,5 +1,5 @@
 def duplicate_encode(word):
-    # Convert to lowercase first 
+    # Convert to lowercase
     word = word.lower()
     
     result = ""
