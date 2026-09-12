@@ -1,5 +1,5 @@
 def duplicate_encode(word):
-    # Convert to lowercase first (ignore case)
+   
     word = word.lower()
     
     result = ""
@@ -12,8 +12,8 @@ def duplicate_encode(word):
     
     return result
 
-# Test
-print(duplicate_encode("din"))        # "((("
-print(duplicate_encode("recede"))     # "()()()"
-print(duplicate_encode("Success"))    # ")())())"
-print(duplicate_encode("(( @"))       # "))(("
+
+print(duplicate_encode("din"))        
+print(duplicate_encode("recede"))     
+print(duplicate_encode("Success"))   
+print(duplicate_encode("(( @"))      
