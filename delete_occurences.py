@@ -18,7 +18,7 @@ result1 = delete_nth(order1, max_e1)
 print("Output:", result1)
 print("-" * 40)
 
-# Example 2
+# Example 
 order2 = [20, 37, 20, 21]
 max_e2 = 1
 print("Input:", order2)
