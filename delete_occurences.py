@@ -10,7 +10,6 @@ def delete_nth(order, max_e):
     return result
 
 
-# Example 1
 order1 = [1, 2, 3, 1, 2, 1, 2, 3]
 max_e1 = 2
 print("Input:", order1)
