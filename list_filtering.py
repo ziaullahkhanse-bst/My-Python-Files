@@ -1,13 +1,5 @@
 def filter_list(lst):
-    """
-    Filter out strings from a list, keep only integers.
-    
-    Parameters:
-    lst (list): List with mixed integers and strings
-    
-    Returns:
-    list: New list with only integers
-    """
+   
     result = []
     for item in lst:
         if type(item) == int:  # Keep only integers
