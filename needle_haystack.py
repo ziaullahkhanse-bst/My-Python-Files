@@ -2,7 +2,6 @@ def find_needle(haystack):
     index = haystack.index("needle")
     return f"found the needle at position {index}"
 
-# Test 
 print(find_needle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]))
 # Output: found the needle at position 5
 
