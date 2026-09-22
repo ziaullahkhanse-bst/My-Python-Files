@@ -5,7 +5,7 @@ def fake_bin(x):
             result = result + "0"
         else:
             result = result + "1"
-    return resul
+    return result
 
 print(fake_bin("45385593107843568"))
 print(fake_bin("509321967506747"))
